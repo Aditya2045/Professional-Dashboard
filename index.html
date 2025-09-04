@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="main">
+         <nav>
+            <div class="nav-in">
+                <h2>Productivity DashBoard</h2>
+            <div class="theme">
+                <h4>Change theme</h4>
+            </div>
+            </div>
+        </nav>
+
+        <section class="allElems">
+
+            <header>
+                <div class="header1">
+                    <h2></h2>
+                   <h1>Thursday, 1:00 pm</h1>
+                   <h4>Kanpur (UP)</h4>
+                </div>
+
+                <div class="header2">
+                    <h2>20</h2>
+                    <h4 class="condition"></h4>
+                    <h3 class="preci">Precipitation: 75%</h3>
+                    <h3 class="humidity"></h3>
+                    <h3 class="wind"></h3>
+                    <!-- <h2> Weather</h2> -->
+                   
+                </div>
+
+            </header>
+
+
+            <div class="all-features">
+                <div class="todo elem" id="0">
+                    <img src="https://images.unsplash.com/photo-1578852612716-854e527abf2e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>To do List</h2>
+                </div>
+                <div class="daily elem" id="1">
+                    <img src="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?q=80&w=666&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>Daily Planner</h2>
+                </div>
+                <div class="moti elem" id="2">
+                    <img src="https://images.unsplash.com/photo-1494959764136-6be9eb3c261e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>Motivational</h2>
+                </div>
+                <div class="pomo elem" id="3">
+                    <img src="https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>Pomodoro </h2>
+                </div>
+                <!-- <div class="goals elem" id="4">
+                    <img src="https://images.unsplash.com/photo-1610540604745-3e96fba9ccef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h2>Daily Goals</h2>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="fullElem  todo-list-fullpage">
+            <button class="back" id="0">Close</button>
+            <h2>Your Personalised Task List</h2>
+
+            <div class="todo-container">
+                <div class="addTask">
+                    <form>
+                        <input id="task-input" type="text" placeholder="Enter Task">
+                        <textarea name="" id="" placeholder="Enter Details"></textarea>
+                        <div class="mark-imp">
+                            <input type="checkbox" id="check">
+                            <label for="checkbox">Mark as Important</label>
+                        </div>
+                        <button>Add Task</button>
+                    </form>
+                </div>
+                <div class="allTask">
+
+                </div>
+            </div>
+        </section>
+        <section class="fullElem daily-planner-fullpage">
+            <button class="back" id="1"> Close </button>
+            <h2>Plan your day to be more prodcutive</h2>
+
+            <div class="day-planner">
+
+
+            </div>
+
+
+
+        </section>
+        <section class="fullElem motivational-fullpage">
+            <button class="back" id="2">Close</button>
+            <div class="motivation-fullPage-container">
+                <div class="motivation-container">
+                    <div class="motivation-wrapper">
+                        <img src="./image.png" alt="">
+                        <div class="motivation-1">
+                            <h2>Quote of the Day</h2>
+                        </div>
+                        <div class="motivation-2">
+                            <h1></h1>
+                        </div>
+                        <div class="motivation-3">
+                            <h2></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fullElem pomodoro-fullpage">
+            <button class="back" id="3">Close</button>
+            <h2>Study With Me</h2>
+
+            <h4 class="session">Work Session</h4>
+
+            <div class="pomo-timer">
+                <h1>25:00</h1>
+                <button class="start-timer">Start</button>
+                <button class="pause-timer">Pause</button>
+                <button class="reset-timer">Reset</button>
+
+
+            </div>
+        </section>
+        <section class="fullElem daily-goals-fullpage">
+            <button class="back" id="4">
+                Close
+            </button>
+            <h1>Daily goals</h1>
+        </section>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
