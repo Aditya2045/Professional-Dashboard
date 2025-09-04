@@ -196,7 +196,7 @@ pomodoroTimer();
 
 
 function weatherFunctionality(){
-  let apiKey = "227f2061629844b1a7481342250409";
+
 let city = "kanpur";
 
 let headerDate = document.querySelector(".header1 h1");
@@ -211,7 +211,7 @@ let data = null;
 
 async function weatherAPICall() {
   let response = await fetch(
-    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`
+    `/api/weather?city=${city}`
   );
   data = await response.json();
 
